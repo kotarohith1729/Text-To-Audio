@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Audio</title>
+    <link href="{{ url_for('static', filename='demo.css') }}" rel="stylesheet">
+    <script src="{{url_for('static',filename='events.js')}}"></script>
+</head>
+<body>
+<form action="op" method=post>
+    <div id="main">
+        <div id="search">
+           <input type="text" placeholder=" Type here...." id="inp" name='inp'>
+            <button id="ser">?</button>
+        </div>
+    </div> 
+</form> 
+</body>
+</html>
